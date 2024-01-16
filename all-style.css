@@ -1,0 +1,97 @@
+.titlea{
+    display: flex;
+}
+
+.titleb{
+    display: flex;
+}
+
+.head{
+    background-image: url(img/ヘッダー背景.jpg);
+    width: 1280px;
+    height: 250px;    
+}
+
+.titleimg{
+    width: 109px;
+    height: 100px;
+    padding: 8px;
+}
+
+.kanko{
+    width: 320px;
+    height: 80px;
+    font-size: 64px;
+    padding: 8px;
+}
+
+.writer{
+    width: 450px;
+    height: 80px;
+    left: 810px;
+    top: 20px;
+    background-color: #adff00;
+    position: absolute;
+
+    font-size: 32px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.kankoti{
+    position: absolute;
+    left: 80px;
+    top: 150px;
+    width: 280px;
+    height: 80px;
+    background-color: #adff00;
+
+    font-size: 32px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.men{
+    position: absolute;
+    left: 380px;
+    top: 150px;
+    width: 280px;
+    height: 80px;
+    background-color: #adff00;
+
+    font-size: 32px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.cyomei{
+    position: absolute;
+    left: 680px;
+    top: 150px;
+    width: 280px;
+    height: 80px;
+    background-color: #adff00;
+
+    font-size: 32px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.movie{
+    position: absolute;
+    left: 980px;
+    top: 150px;
+    width: 280px;
+    height: 80px;
+    background-color: #adff00;
+
+    font-size: 32px;
+    line-height: 80px;
+    text-align: center;
+}
+
+body{
+    margin: 0px;
+    font-family: 'Noto Serif JP', serif;
+}
+
