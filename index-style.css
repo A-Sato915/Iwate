@@ -1,0 +1,62 @@
+body{
+    background-image: url(img/index背景.png);
+    font-family: 'Noto Serif JP', serif;
+}
+
+.indexcarousel{
+    width: 1000px;
+    margin: 100px auto;
+}
+
+.writersyoukai{
+   color: rgba(0, 0, 0, 1);
+   background: rgba(173, 255, 0, 1);
+   font-size: 32px;
+   text-align: center;
+   line-height: 74px;
+   width: 30%;
+}
+
+.writersyoukai2{
+    width: 1000px;
+    height: 74px;
+    margin: 100px auto;
+}
+
+.flex{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.writer-box{
+    width: 300px;
+    height: 300px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.white{
+    background-color: #ffffff;
+}
+
+.gray{
+    background-color: #D1D7DD;
+}
+
+.writer-img{
+    width: 230px;
+    height: 190px;
+}
+
+.name{
+    font-size: 32px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+  

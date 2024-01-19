@@ -1,11 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="all-style.css">
+  <link rel="stylesheet" href="index-style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+  <link rel="icon" href="img/favicon (1).ico">
 </head>
+
 <body>
-    
+  <header>
+    <div class="head">
+      <div class="titlea">
+        <img class="titleimg" src="img/わんこ兄弟.png" alt="わんこ兄弟">
+        <a class="kanko">岩手観光</a>
+        <a class="writer">ライターページ</a>
+      </div>
+      <div class="titleb">
+        <a class="kankoti">観光地</a>
+        <a class="men">盛岡三大麺</a>
+        <a class="cyomei">著名人</a>
+        <a class="movie">岩手が舞台の作品</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="indexcarousel">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/石割桜.jpg" class="d-block w-100" alt="石割桜">
+          </div>
+          <div class="carousel-item">
+            <img src="img/ドラゴンアイ.jpg" class="d-block w-100" alt="ドラゴンアイ">
+          </div>
+          <div class="carousel-item">
+            <img src="img/浄土ヶ浜.jpg" class="d-block w-100" alt="浄土ヶ浜">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="writersyoukai2">
+      <p class="writersyoukai">ライター紹介</p>
+    </div>
+
+    <div class="flex">
+      <div class="writer-box white">
+        <img class="writer-img" src="img/歩夢index画像.png" alt="">
+        <p class="name">佐藤 歩夢</p>
+      </div>
+      <div class="writer-box gray">
+        <img class="writer-img" src="" alt="">
+        <p class="name">北村 柊馬</p>
+      </div>
+    </div>
+
+    <div class="flex">
+      <div class="writer-box gray">
+        <img class="writer-img" src="" alt="">
+        <p class="name">中村 伊吹</p>
+
+      </div>
+      <div class="writer-box white">
+        <img class="writer-img" src="" alt="">
+        <p class="name">佐藤 貴之</p>
+      </div>
+    </div>
+    </div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
 </body>
+
+
 </html>
