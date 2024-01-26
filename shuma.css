@@ -1,3 +1,4 @@
+@charset "usf-8";
 .titlea{
     display: flex;
 }
@@ -9,13 +10,14 @@
 .head{
     background-image: url(img/ヘッダー背景.jpg);
     width: 1280px;
-    height: 250px;    
+    height: 250px;
 }
 
 .titleimg{
     width: 109px;
     height: 100px;
     padding: 8px;
+    margin: 0;
 }
 
 .kanko{
@@ -23,8 +25,6 @@
     height: 80px;
     font-size: 64px;
     padding: 8px;
-    text-decoration: none;
-    color: black;
 }
 
 .writer{
@@ -38,8 +38,6 @@
     font-size: 32px;
     line-height: 80px;
     text-align: center;
-    text-decoration: none;
-    color: black;
 }
 
 .kankoti{
@@ -53,8 +51,6 @@
     font-size: 32px;
     line-height: 80px;
     text-align: center;
-    text-decoration: none;
-    color: black;
 }
 
 .men{
@@ -68,8 +64,6 @@
     font-size: 32px;
     line-height: 80px;
     text-align: center;
-    text-decoration: none;
-    color: black;
 }
 
 .cyomei{
@@ -83,8 +77,6 @@
     font-size: 32px;
     line-height: 80px;
     text-align: center;
-    text-decoration: none;
-    color: black;
 }
 
 .movie{
@@ -98,12 +90,30 @@
     font-size: 32px;
     line-height: 80px;
     text-align: center;
-    text-decoration: none;
-    color: black;
 }
-
 body{
-    margin: 0px;
-    font-family: 'Noto Serif JP', serif;
+    background-image: url(img/background137.webp);
 }
 
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+p{
+    margin-bottom: 400px;
+    font-size: 30px;
+}
+img{
+    margin-left: 100px;
+    width: 450px;
+    height: 450px;
+    margin-right: 100px;
+}
+.syuu{
+    margin-bottom: 100px;
+    font-size: 25px;
+    width: 250px;
+}
+body{
+    font-family:Noto  Serif JP
+}
